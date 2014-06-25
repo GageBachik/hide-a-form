@@ -50,6 +50,7 @@
 .bio{
 	padding: 10px;
 	line-height: 35px;
+	height: 130px;
 }
 
 .clear-name{
@@ -99,3 +100,43 @@
 }
 
 /*Favorites*/
+
+/*Editable*/
+
+.editing{
+	display: none;
+	margin-left: 90%;
+	background-color: #35C;
+	border: 1px solid #35C;
+	border-radius: 2px;
+}
+
+.edit{
+	margin-left: 90%;
+	background-color: #35C;
+	border: 1px solid #35C;
+	border-radius: 2px;
+}
+
+.addmore{
+	color: black;
+	margin-left: 5px;
+}
+
+.editable:hover{
+	color: black;
+	background-color: #FFB;
+}
+
+.edit-box{
+	color: black;
+	display: absolute;
+	top: 0;
+	left: 0;
+	resize: none;
+	font-size: 12px;
+	overflow: auto;
+	vertical-align: middle;
+}
+
+/*Editable*/
